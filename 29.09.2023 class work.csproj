@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_29._09._2023_class_work</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="at.png" />
+    <None Remove="de.png" />
+    <None Remove="gb.png" />
+    <None Remove="sh.png" />
+    <None Remove="sk.png" />
+    <None Remove="ua.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="de.png" />
+    <Resource Include="sh.png" />
+    <Resource Include="sk.png" />
+    <Resource Include="ua.png" />
+  </ItemGroup>
+
+</Project>
